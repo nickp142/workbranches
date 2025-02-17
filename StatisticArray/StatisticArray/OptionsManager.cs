@@ -13,9 +13,9 @@ namespace StatisticArray
             return arr.Count(x => x < 100);
         }
 
-        public static int MaxNum(int[] arr)
+        public static int MinNum(int[] arr)
         {
-            return arr.Max();
+            return arr.Min();
         }
 
         public static int[] ReverseArr(int[] arr)
